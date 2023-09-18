@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goitacademy.github.io/rent-car-ua/static/css/main.7acaea2f.css",
-    "main.js": "/goitacademy.github.io/rent-car-ua/static/js/main.07d3183d.js",
-    "index.html": "/goitacademy.github.io/rent-car-ua/index.html",
-    "main.7acaea2f.css.map": "/goitacademy.github.io/rent-car-ua/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goitacademy.github.io/rent-car-ua/static/js/main.07d3183d.js.map"
+    "main.css": "/rent-car-ua/static/css/main.fb4437c7.css",
+    "main.js": "/rent-car-ua/static/js/main.286bf992.js",
+    "index.html": "/rent-car-ua/index.html",
+    "main.fb4437c7.css.map": "/rent-car-ua/static/css/main.fb4437c7.css.map",
+    "main.286bf992.js.map": "/rent-car-ua/static/js/main.286bf992.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.fb4437c7.css",
+    "static/js/main.286bf992.js"
   ]
 }
