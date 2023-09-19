@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { Suspense } from "react";
+import { img } from '../images/img';
 import css from "./Layout.module.css";
 
 export default function Layout () {
@@ -7,19 +8,13 @@ export default function Layout () {
         <>
             <header className={css.header}>
         <div className={css.container}>
-          <NavLink className={css.link} to="/">
-            {/* <LogoIcon width="32" height="32" /> */}
-            Car Rental
+          <NavLink to="/">
+            <img src={img.logo} alt="logo" height={150} width={150} />
           </NavLink>
 
-          <p className={css.title}>
-            Car Rental – Search, Compare, and Save up to 70%!
-          </p>
-
-          <NavLink className={css.link} to="/favourites">
-            Favourites
-            {/* <ActiveIcon width="32" height="32" /> */}
-          </NavLink>
+          <NavLink to="/favourites">
+            <img className={css.heart}src={img.heart} alt="logo" height={32} width={32} />
+         </NavLink>
         </div>
       </header>
       <main>

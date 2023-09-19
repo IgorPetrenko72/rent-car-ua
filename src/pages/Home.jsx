@@ -5,8 +5,7 @@ export default function Home() {
     return (
         <>
             <div>
-                <div >
-                    <div md={
+                <div md={
                         {
                             size: 6,
                             offset: 0
@@ -17,11 +16,8 @@ export default function Home() {
                         <p>Looking for a great deal on a new or used car near you? At Car.Rent we have a wide range of new and used cars for sale at great prices.</p>
                         <NavLink className={css.mx2} to="/catalog">
                             Get Started
-                        </NavLink>
-                    </div>
-                
+                        </NavLink>                
                 </div>
-
             </div>
         </>
 

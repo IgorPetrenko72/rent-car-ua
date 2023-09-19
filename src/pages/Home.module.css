@@ -8,22 +8,23 @@ body {
     background-color: #e2e2e2 !important;
 }
 
-.home--content {
+.homeContent {
     padding: 100px;
 }
 
-.home--content>h1 {
+.homeContent>h1 {
     max-width: 400px;
     font-size: 50px;
     font-weight: 700;
 }
 
-.home--content>p {
-    font-size: 18px;
+.homeContent>p {
+    max-width: 750px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 30px;
 }
-
+/* 
 .navbar-brand {
     color: #0e0e55 !important;
     font-weight: 700 !important;
@@ -33,10 +34,10 @@ body {
 .nav-link {
     font-size: 18px !important;
     color: black !important;
-}
+} */
 
 /* darklone */
-.mx-2 {
+.mx2 {
     display: inline-block !important;
     background-color: #0e0e55 !important;
     border-radius: 15px !important;
@@ -60,7 +61,7 @@ button span {
     transition: 0.5s !important;
 }
 
-.mx-2:hover {
+.mx2:hover {
     background-color: #686ae9 !important;
     cursor: pointer;
     transform: scale(1.1);
@@ -88,7 +89,7 @@ button span {
     transform: scale(1.05);
     filter: brightness(150%);
 }
-
+/* 
 .nav-logins button {
     transition: all 0.3s ease;
     transform: scale(1);
@@ -99,13 +100,13 @@ button span {
     cursor: pointer;
     transform: scale(1.05);
     filter: brightness(120%);
-}
-
+} */
+/* 
 .logo {
     font-weight: 600 !important;
     font-size: 35px !important;
     text-shadow: 1px 1px;
-}
+} */
 
 .selected {
     border: 1px #686ae9 !important;
