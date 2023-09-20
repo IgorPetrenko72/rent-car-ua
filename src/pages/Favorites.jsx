@@ -1,23 +1,23 @@
-// import { AdvertsList } from 'components/AdvertsList';
-// import { Sidebar } from 'components/SideBar';
-// import { useEffect, useState } from 'react';
-// import { useDispatch, useSelector } from 'react-redux';
-// import { fetchAdverts } from 'redux/operations';
-// import { getAdverts } from 'redux/selectors';
+import { RentCars } from 'components/RentCars/RentCars';
+import { Sidebar } from 'components/Sidebar/Sidebar';
+import { useEffect} from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchRent } from 'redux/api';
+import { getAdverts, getFavorites } from 'redux/selectors';
 
-// export const Catalog = () => {
-//   const { items } = useSelector(getAdverts);
-//   const [pageNumber, setPageNumber] = useState(1);
+export const Favorites = () => {
+  const { items } = useSelector(getAdverts);
+  const favorites = useSelector(getFavorites);
+  const dispatch = useDispatch();
+  const favoritesList = items.filter(item => favorites.includes(item.id));
 
-//   const dispatch = useDispatch();
-
-//   useEffect(() => {
-//     dispatch(fetchAdverts(pageNumber));
-//   }, [dispatch, pageNumber]);
-//   return (
-//     <>
-//       <Sidebar />
-//       <AdvertsList adverts={items} setPage={setPageNumber} page="catalog" />
-//     </>
-//   );
-// };
+  useEffect(() => {
+    dispatch(fetchRent());
+  }, [dispatch]);
+  return (
+    <>
+      <Sidebar />
+      <RentCars adverts={favoritesList} />
+    </>
+  );
+};

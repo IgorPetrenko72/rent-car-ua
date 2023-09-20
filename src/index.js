@@ -5,11 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <BrowserRouter
-      // basename="/rent-car-ua"
+      basename="/rent-car-ua"
     >
       <App />
     </BrowserRouter>
-  // </React.StrictMode>
+   </React.StrictMode>
 );

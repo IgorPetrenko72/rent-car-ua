@@ -1,7 +1,7 @@
 import css from "./Home.module.css";
 import { NavLink } from "react-router-dom";
 
-export default function Home() {
+export const Home = () => {
     return (
         <>
             <div>

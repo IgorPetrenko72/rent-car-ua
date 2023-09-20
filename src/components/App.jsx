@@ -1,6 +1,6 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import  Layout  from "./Layout";
-import  Home  from "pages/Home";
+import  Layout  from "./Layout/Layout";
+import  {Home}  from "pages/Home";
 import { Catalog } from "pages/Catalog";
 import { Favorites } from "pages/Favorites";
 

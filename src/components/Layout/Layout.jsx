@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { Suspense } from "react";
-import { img } from '../images/img';
+import { img } from '../../images/img';
 import css from "./Layout.module.css";
 
 export default function Layout () {
